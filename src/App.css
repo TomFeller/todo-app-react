@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -19,4 +21,21 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.todo-list {
+  background-color: cornflowerblue;
+  padding: 0;
+}
+.todo-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.todo-list li:nth-child(odd) {
+  background-color: #85a589;
+}
+.todo-list li:nth-child(even) {
+  background-color: #686fa5;
 }
